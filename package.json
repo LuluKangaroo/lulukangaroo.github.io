@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://lulukangaroo.github.io",
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
@@ -35,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "nodemon": "^1.19.4"
   }
 }
