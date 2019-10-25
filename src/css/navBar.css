@@ -1,0 +1,30 @@
+.navContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    background: #000;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navContainer li {
+    display: inline-block;
+    width: 20%;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.navContainer li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
