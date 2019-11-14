@@ -17,6 +17,8 @@ import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import NotFound from './notfound';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const routing = (
     <Router>
             <Switch>
