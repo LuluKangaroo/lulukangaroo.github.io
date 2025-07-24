@@ -1,0 +1,65 @@
+[
+    {
+        "tags": [
+            "coding",
+            "webdev",
+            "work",
+            "interpersonal"
+        ],
+        "role": "role title/name",
+        "company": "goof",
+        "duration": [0, 0],
+        "achievements": [
+            "bullet point one",
+            "bullet point two",
+            "bullet point three"
+        ],
+        "tools": [
+            "language",
+            "software",
+            "terminology"
+        ]
+    },
+    {
+        "tags": [
+            "coding",
+            "webdev",
+            "work",
+            "interpersonal"
+        ],
+        "role": "role title/name",
+        "company": "goof",
+        "duration": [0, 0],
+        "achievements": [
+            "bullet point one",
+            "bullet point two",
+            "bullet point three"
+        ],
+        "tools": [
+            "language",
+            "software",
+            "terminology"
+        ]
+    },
+    {
+        "tags": [
+            "coding",
+            "webdev",
+            "work",
+            "interpersonal"
+        ],
+        "role": "role title/name",
+        "company": "goof",
+        "duration": [0, 0],
+        "achievements": [
+            "bullet point one",
+            "bullet point two",
+            "bullet point three"
+        ],
+        "tools": [
+            "language",
+            "software",
+            "terminology"
+        ]
+    }
+]
