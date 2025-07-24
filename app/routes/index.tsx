@@ -1,4 +1,5 @@
 import type { Route } from "./+types/index";
+import { PropsStudy } from "./propsStudy";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -8,5 +9,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Index() {
-    return <h1>test index</h1>;
+    return (
+        <div>
+            <h1>test index</h1>
+            <PropsStudy />
+        </div>
+    );
 }

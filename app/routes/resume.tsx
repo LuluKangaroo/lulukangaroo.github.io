@@ -8,7 +8,7 @@ export function meta({}: Route.MetaArgs) {
     ];
 }
 
-export default function Resume() {
+export function Resume() {
     return (
         <div>
             <h1>hello you're in resume</h1>

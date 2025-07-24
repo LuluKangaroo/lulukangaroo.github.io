@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 //     return { message: "hello this is a loader data example" };
 // }
 
-export default function PropsStudy({
+export function PropsStudy({
     loaderData,
     actionData,
     params,
