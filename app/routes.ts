@@ -8,7 +8,6 @@ import {
 
 export default [
     index("routes/index.tsx"),
-    route("propsStudy", "routes/propsStudy.tsx"),
     // prefix("resumes", [
     //     layout("routes/resume.tsx", [
     //         index("resumes/general.tsx"),
