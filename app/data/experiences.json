@@ -1,65 +1,64 @@
 [
     {
         "tags": [
-            "coding",
-            "webdev",
             "work",
             "interpersonal"
         ],
-        "role": "role title/name",
-        "company": "goof",
-        "duration": [0, 0],
+        "role": "E-Commerce Team Member",
+        "company": "Whole Foods Market",
+        "duration": ["2025-02-27", "present"],
         "achievements": [
-            "bullet point one",
-            "bullet point two",
-            "bullet point three"
+            "packing orders",
+            "helping customers",
+            "training new hires"
         ],
         "tools": [
-            "language",
-            "software",
-            "terminology"
+            "handheld devices"
         ]
     },
     {
         "tags": [
             "coding",
-            "webdev",
-            "work",
-            "interpersonal"
+            "webdev"
         ],
-        "role": "role title/name",
-        "company": "goof",
-        "duration": [0, 0],
+        "role": "Personal Project",
+        "company": null,
+        "duration": [0, "present"],
         "achievements": [
-            "bullet point one",
-            "bullet point two",
-            "bullet point three"
+            "portfolio page",
+            "self-taught adventures"
         ],
         "tools": [
-            "language",
-            "software",
-            "terminology"
+            "React",
+            "Tailwind CSS",
+            "GitHub",
+            "Visual Studio Code"
         ]
     },
     {
         "tags": [
             "coding",
-            "webdev",
-            "work",
-            "interpersonal"
+            "work"
         ],
-        "role": "role title/name",
-        "company": "goof",
-        "duration": [0, 0],
+        "role": "Associate Software Engineer",
+        "company": "L3Harris",
+        "duration": ["2020-06-29", "2023-03-31"],
         "achievements": [
-            "bullet point one",
-            "bullet point two",
-            "bullet point three"
+            "buddy",
+            "Industry Achievement Award"
         ],
         "tools": [
-            "language",
-            "software",
-            "terminology"
+            "Microsoft Teams",
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Atlassian Confluence",
+            "Atlassian Bitbucket",
+            "Atlassian JIRA",
+            "Python 2",
+            "Python 3",
+            "Anaconda",
+            "Visual Studio Code",
+            "Jenkins"
         ]
     }
 ]
