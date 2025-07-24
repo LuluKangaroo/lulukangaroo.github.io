@@ -7,9 +7,9 @@ export function meta({}: Route.MetaArgs) {
     ];
 }
 
-export async function loader() {
-    return { message: "hello this is a loader data example" };
-}
+// export async function loader() {
+//     return { message: "hello this is a loader data example" };
+// }
 
 export default function PropsStudy({
     loaderData,

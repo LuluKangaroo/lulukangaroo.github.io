@@ -10,7 +10,9 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Resume() {
     return (
-        <h1>hello you're in resume</h1>
-        <Outlet />
-    )
+        <div>
+            <h1>hello you're in resume</h1>
+            <Outlet />
+        </div>
+    );
 }
