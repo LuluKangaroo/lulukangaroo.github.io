@@ -4,14 +4,14 @@ import { Resume } from "../components/resume";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "react router app test index" },
+        { title: "Lulu Kangaroo" },
         { name: "description", content: "this is my test index file"}
     ];
 }
 
 export default function Index() {
     return (
-        <div>
+        <div className="box-border snap-y snap-mandatory overflow-y-auto h-screen">
             <Splash />
             <Resume />
         </div>
