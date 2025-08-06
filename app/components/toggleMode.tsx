@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { LightBulbIcon } from '@heroicons/react/24/outline';
+import { HiOutlineLightBulb } from 'react-icons/hi';
+import { FaLightbulb } from "react-icons/fa";
 
 export function ToggleMode() {
     const savedDark = localStorage.getItem('darkMode') === 'true';
@@ -17,7 +18,8 @@ export function ToggleMode() {
 
     return (
         <button onClick={() => setDarkMode(!darkMode)}>
-            <LightBulbIcon className="size-8"/>
+            <HiOutlineLightBulb />
+            <FaLightbulb />
         </button>
     )
 }

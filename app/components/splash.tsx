@@ -1,4 +1,6 @@
 import { BasicInfo } from "../components/basicInfo";
+import { SiGithub, SiLinkedin, SiLeetcode, SiCodecademy } from "react-icons/si";
+import { FaBomb } from "react-icons/fa";
 
 export function Splash() {
     return (
@@ -18,10 +20,11 @@ export function Splash() {
             <ul className="box-border
                            w-screen
                            flex flex-row justify-center">
-                <li>social</li>
-                <li>links</li>
-                <li>urls</li>
-                <li>icons</li>
+                <li><SiGithub /></li>
+                <li><SiLinkedin /></li>
+                <li><SiLeetcode /></li>
+                <li><SiCodecademy /></li>
+                <li><FaBomb /></li>
             </ul>
             <h2>resume (down/scroll)</h2>
         </div>
