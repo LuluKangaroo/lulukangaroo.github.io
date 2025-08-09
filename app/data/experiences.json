@@ -4,9 +4,26 @@
             "work",
             "interpersonal"
         ],
+        "role": "E-Commerce Team Trainer",
+        "company": "Whole Foods Market, Inc.",
+        "duration": ["2025-08-17", "present"],
+        "achievements": [
+            "packing orders",
+            "helping customers",
+            "training new hires"
+        ],
+        "tools": [
+            "handheld devices"
+        ]
+    },
+    {
+        "tags": [
+            "work",
+            "interpersonal"
+        ],
         "role": "E-Commerce Team Member",
-        "company": "Whole Foods Market",
-        "duration": ["2025-02-27", "present"],
+        "company": "Whole Foods Market, Inc.",
+        "duration": ["2025-02-27", "2025-08-17"],
         "achievements": [
             "packing orders",
             "helping customers",
@@ -22,7 +39,7 @@
             "webdev"
         ],
         "role": "Personal Project",
-        "company": null,
+        "company": "independent",
         "duration": [0, "present"],
         "achievements": [
             "portfolio page",
@@ -41,7 +58,7 @@
             "work"
         ],
         "role": "Associate Software Engineer",
-        "company": "L3Harris",
+        "company": "L3Harris Technologies, Inc.",
         "duration": ["2020-06-29", "2023-03-31"],
         "achievements": [
             "buddy",
