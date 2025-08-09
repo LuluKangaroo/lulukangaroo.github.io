@@ -11,7 +11,10 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Index() {
     return (
-        <div className="box-border snap-y snap-mandatory overflow-y-auto h-screen">
+        <div className="snap-y snap-mandatory overflow-y-scroll overflow-x-hidden h-screen box-border
+                        scrollbar scrollbar-w-2 scrollbar-thumb-rounded-full
+                        scrollbar-track-black scrollbar-thumb-white/40
+                        dark:scrollbar-track-white dark:scrollbar-thumb-black/40">
             <Splash />
             <Resume />
         </div>

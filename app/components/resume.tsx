@@ -29,7 +29,7 @@ export function Resume() {
                     <li>GPA 3.2</li>
                 </ul>
             </div>
-            <div id="resumeContent" className="box-border w-full overflow-y-auto pl-10">
+            <div id="resumeContent" className="box-border w-full overflow-y-auto pl-10 scrollbar-thin">
                 {expData.map(item => (
                     <Experience
                         role={item.role}
