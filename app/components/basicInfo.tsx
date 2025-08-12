@@ -2,6 +2,7 @@ import { ToggleMode } from "./toggleMode";
 import { SiGithub, SiLinkedin, SiLeetcode, SiCodecademy } from "react-icons/si";
 import { FaBomb } from "react-icons/fa";
 import pagesData from "../data/pages.json";
+import { Tooltip } from "react-tooltip";
 
 const getIconComponent = (name) => {
     const nameToComponent = {
@@ -17,7 +18,13 @@ const getIconComponent = (name) => {
 
 const getPageLink = (title, url, suffix) => {
     return (
-        <a href={[url, suffix].join("/")} title={title} target="_blank">
+        <a
+            href={[url, suffix].join("/")}
+            target="_blank"
+            data-tooltip-id="linkTooltip"
+            data-tooltip-content={title}
+            data-tooltip-place="top"
+        >
             {getIconComponent(title)}
         </a>
     )
@@ -33,6 +40,7 @@ export function BasicInfo() {
                         bg-white/50 dark:bg-black/60
                         flex flex-col justify-center items-center">
             <h1 className="hidden">Lulu</h1>
+            <Tooltip id="linkTooltip" className="tooltipStyle"/>
             <ul className="box-border
                            w-screen
                            flex flex-row justify-center gap-5">

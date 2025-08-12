@@ -42,3 +42,15 @@ body {
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+.tooltipStyle {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.dark .tooltipStyle {
+  background-color: white;
+  color: black;
+}

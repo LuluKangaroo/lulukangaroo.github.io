@@ -17,7 +17,12 @@ export function ToggleMode() {
     }, [darkMode]);
 
     return (
-        <button onClick={() => setDarkMode(!darkMode)}>
+        <button
+            onClick={() => setDarkMode(!darkMode)}
+            data-tooltip-id="linkTooltip"
+            data-tooltip-content="Light/Dark toggle"
+            data-tooltip-place="top"
+        >
             <HiOutlineLightBulb />
             <FaLightbulb />
         </button>
