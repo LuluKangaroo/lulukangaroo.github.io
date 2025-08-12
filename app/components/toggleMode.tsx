@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { HiOutlineLightBulb } from 'react-icons/hi';
-import { FaLightbulb } from "react-icons/fa";
+import { HiLightBulb } from "react-icons/hi2";
 
 export function ToggleMode() {
     const savedDark = localStorage.getItem('darkMode') === 'true';
@@ -23,8 +22,7 @@ export function ToggleMode() {
             data-tooltip-content="Light/Dark toggle"
             data-tooltip-place="top"
         >
-            <HiOutlineLightBulb />
-            <FaLightbulb />
+            <HiLightBulb />
         </button>
     )
 }

@@ -1,6 +1,6 @@
 import { ToggleMode } from "./toggleMode";
 import { SiGithub, SiLinkedin, SiLeetcode, SiCodecademy } from "react-icons/si";
-import { FaBomb } from "react-icons/fa";
+import { PiBombBold } from "react-icons/pi";
 import pagesData from "../data/pages.json";
 import { Tooltip } from "react-tooltip";
 
@@ -10,7 +10,7 @@ const getIconComponent = (name) => {
         "LinkedIn": SiLinkedin,
         "LeetCode": SiLeetcode,
         "Codecademy": SiCodecademy,
-        "Bomberman Game": FaBomb
+        "Bomberman Game": PiBombBold
     }
     const Component = nameToComponent[name];
     return (Component ? <Component /> : null);
@@ -18,15 +18,18 @@ const getIconComponent = (name) => {
 
 const getPageLink = (title, url, suffix) => {
     return (
-        <a
-            href={[url, suffix].join("/")}
-            target="_blank"
-            data-tooltip-id="linkTooltip"
-            data-tooltip-content={title}
-            data-tooltip-place="top"
-        >
-            {getIconComponent(title)}
-        </a>
+        <li className="text-lg h-1">
+            <Tooltip id="linkTooltip" className="tooltipStyle"/>
+            <a
+                href={[url, suffix].join("/")}
+                target="_blank"
+                data-tooltip-id="linkTooltip"
+                data-tooltip-content={title}
+                data-tooltip-place="top"
+            >
+                {getIconComponent(title)}
+            </a>
+        </li>
     )
 }
 
@@ -40,7 +43,6 @@ export function BasicInfo() {
                         bg-white/50 dark:bg-black/60
                         flex flex-col justify-center items-center">
             <h1 className="hidden">Lulu</h1>
-            <Tooltip id="linkTooltip" className="tooltipStyle"/>
             <ul className="box-border
                            w-screen
                            flex flex-row justify-center gap-5">
