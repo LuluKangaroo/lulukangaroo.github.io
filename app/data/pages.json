@@ -1,0 +1,30 @@
+{
+    "suffix": "lulukangaroo",
+    "sites": [    
+        {
+            "name": "LinkedIn",
+            "baseUrl": "https://linkedin.com/in",
+            "addSuffix": true
+        },
+        {
+            "name": "GitHub",
+            "baseUrl": "https://github.com",
+            "addSuffix": true
+        },
+        {
+            "name": "LeetCode",
+            "baseUrl": "https://leetcode.com/u",
+            "addSuffix": true
+        },
+        {
+            "name": "Codecademy",
+            "baseUrl": "https://codecademy.com/profiles",
+            "addSuffix": true
+        },
+        {
+            "name": "Bomberman Game",
+            "baseUrl": "",
+            "addSuffix": false
+        }
+    ]
+}

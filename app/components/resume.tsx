@@ -5,7 +5,6 @@ import expData from "../data/experiences.json";
 
 export function Resume() {
     const headerStyles = "font-header lowercase text-2xl mt-5 text-black/20 dark:text-white/30";
-    console.log(expData);
 
     return (
         <div className="box-border
